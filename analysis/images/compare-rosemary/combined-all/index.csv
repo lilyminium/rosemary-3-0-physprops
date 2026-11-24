@@ -1,0 +1,171 @@
+group,file,n_density,n_dhmix
+All,All.png,1212,997
+"1,2 Aminoalcohol",1_2_Aminoalcohol.png,12,9
+"1,2 Diol",1_2_Diol.png,15,15
+Acetal,Acetal.png,13,12
+Alcohol,Alcohol.png,411,345
+Aldehyde,Aldehyde.png,4,3
+Alkane,Alkane.png,211,186
+Alkene,Alkene.png,13,9
+Alkyl Bromide,Alkyl_Bromide.png,126,120
+Alkyl Chloride,Alkyl_Chloride.png,181,171
+Alkyl Fluoride,Alkyl_Fluoride.png,20,18
+Alkylarylether,Alkylarylether.png,20,18
+Amine,Amine.png,151,117
+Aqueous,Aqueous.png,80,69
+Aromatic,Aromatic.png,242,214
+Aryl Chloride,Aryl_Chloride.png,17,15
+Carbonyl,Carbonyl.png,110,93
+Carboxylic Acid,Carboxylic_Acid.png,7,0
+Carboxylic Acid Amide,Carboxylic_Acid_Amide.png,90,84
+Carboxylic Acid Derivative,Carboxylic_Acid_Derivative.png,521,462
+Carboxylic Acid Ester,Carboxylic_Acid_Ester.png,414,363
+Carboxylic Acid Tertiary Amide,Carboxylic_Acid_Tertiary_Amide.png,90,84
+Dialkylether,Dialkylether.png,230,198
+Ether,Ether.png,250,216
+Halogen Derivative,Halogen_Derivative.png,367,345
+Heterocycle,Heterocycle.png,220,177
+Hydroxy,Hydroxy.png,413,345
+Ketone,Ketone.png,106,90
+Lactam,Lactam.png,34,33
+Lactone,Lactone.png,5,0
+Nitrile,Nitrile.png,27,24
+Orthocarboxylic Acid Derivative,Orthocarboxylic_Acid_Derivative.png,16,15
+Phenol,Phenol.png,8,6
+Primary Alcohol,Primary_Alcohol.png,381,327
+Primary Aliphatic Amine,Primary_Aliphatic_Amine.png,32,21
+Primary Amine,Primary_Amine.png,55,42
+Primary Aromatic Amine,Primary_Aromatic_Amine.png,23,21
+Secondary Alcohol,Secondary_Alcohol.png,22,9
+Secondary Aliphatic Amine,Secondary_Aliphatic_Amine.png,45,39
+Secondary Amine,Secondary_Amine.png,61,54
+Secondary Mixed Amine,Secondary_Mixed_Amine.png,16,15
+Tertiary Alcohol,Tertiary_Alcohol.png,14,12
+Tertiary Aliphatic Amine,Tertiary_Aliphatic_Amine.png,48,33
+Tertiary Amine,Tertiary_Amine.png,48,33
+a1,a1.png,1197,988
+a10,a10.png,657,571
+a10a,a10a.png,295,252
+a11,a11.png,398,364
+a11a,a11a.png,34,33
+a12,a12.png,11,9
+a14,a14.png,83,69
+a15,a15.png,418,363
+a16,a16.png,27,24
+a18,a18.png,89,69
+a18a,a18a.png,48,42
+a19,a19.png,68,51
+a2,a2.png,1195,988
+a20,a20.png,110,99
+a21,a21.png,49,45
+a22,a22.png,50,39
+a28,a28.png,656,576
+a28a,a28a.png,456,372
+a41,a41.png,108,90
+b1,b1.png,1121,943
+b10,b10.png,90,84
+b11,b11.png,4,0
+b12,b12.png,50,39
+b13,b13.png,20,15
+b14,b14.png,411,345
+b16,b16.png,677,591
+b18,b18.png,31,21
+b19,b19.png,20,18
+b2,b2.png,167,148
+b20,b20.png,414,363
+b21,b21.png,608,531
+b25,b25.png,27,24
+b27,b27.png,27,24
+b3,b3.png,452,384
+b4,b4.png,19,15
+b5,b5.png,234,211
+b6,b6.png,27,18
+b69,b69.png,39,36
+b7,b7.png,148,111
+b70,b70.png,17,15
+b71,b71.png,185,174
+b73,b73.png,126,120
+b8,b8.png,53,45
+b84,b84.png,1196,988
+b85,b85.png,407,367
+b87,b87.png,117,96
+b88,b88.png,456,372
+b9,b9.png,90,84
+i1,i1.png,433,379
+i2,i2.png,418,363
+i4,i4.png,129,120
+i6,i6.png,14,9
+i7,i7.png,4,0
+n-tip3p-H,n-tip3p-H.png,80,69
+n-tip3p-O,n-tip3p-O.png,80,69
+n11,n11.png,117,96
+n12,n12.png,424,351
+n14,n14.png,837,730
+n15,n15.png,27,24
+n16,n16.png,1197,988
+n17,n17.png,609,531
+n18,n18.png,678,591
+n19,n19.png,424,351
+n2,n2.png,1080,904
+n20,n20.png,309,249
+n23,n23.png,39,36
+n24,n24.png,202,189
+n25,n25.png,126,120
+n3,n3.png,1083,927
+n4,n4.png,13,12
+n5,n5.png,4,3
+n7,n7.png,251,223
+n8,n8.png,64,48
+n9,n9.png,159,147
+t1,t1.png,859,742
+t10,t10.png,19,18
+t105,t105.png,20,18
+t106,t106.png,24,21
+t107,t107.png,409,363
+t108,t108.png,23,15
+t109,t109.png,7,0
+t11,t11.png,181,171
+t110,t110.png,409,363
+t111,t111.png,5,0
+t12,t12.png,126,120
+t166,t166.png,27,24
+t17,t17.png,480,408
+t17a,t17a.png,138,124
+t18,t18.png,331,297
+t19,t19.png,448,381
+t2,t2.png,658,576
+t20,t20.png,13,9
+t23,t23.png,34,33
+t3,t3.png,1106,934
+t4,t4.png,889,768
+t43,t43.png,10,9
+t44,t44.png,234,211
+t45,t45.png,27,18
+t46,t46.png,6,3
+t47,t47.png,9,6
+t5,t5.png,101,84
+t51,t51.png,112,81
+t58a,t58a.png,89,69
+t6,t6.png,20,18
+t64,t64.png,110,99
+t67,t67.png,34,33
+t7,t7.png,49,48
+t71,t71.png,16,15
+t72,t72.png,16,15
+t74,t74.png,39,36
+t75,t75.png,56,51
+t77,t77.png,56,51
+t8,t8.png,43,42
+t80,t80.png,48,42
+t82,t82.png,4,0
+t83,t83.png,4,0
+t84,t84.png,50,39
+t85,t85.png,50,39
+t86,t86.png,20,15
+t9,t9.png,738,630
+t93,t93.png,400,336
+t94,t94.png,385,321
+t95,t95.png,677,591
+t96,t96.png,244,210
+t97,t97.png,255,222
+t98,t98.png,13,12

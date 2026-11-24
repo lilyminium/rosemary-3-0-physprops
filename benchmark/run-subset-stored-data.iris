@@ -1,0 +1,26 @@
+#!/usr/bin/env bash
+#SBATCH -J subset-stored-data
+#SBATCH -p cpu
+#SBATCH -t 04:00:00
+#SBATCH --mem=32gb
+#SBATCH --output run-logs/slurm-%x.%A.out
+
+# Written for this repository (not part of the Sage 2.3.0 repo).
+# Run from ash-sage-rc2/04_benchmark/phys-prop on Iris. Copies (never moves) the
+# pre-equilibrated boxes the benchmark selects for the training + validation sets out of
+# stored_data, using the Evaluator of the given conda env:
+#   sbatch --export=ALL,ENVNAME=ash-sage-rosemary run-subset-stored-data.iris   # rc1 runs
+#   sbatch --export=ALL,ENVNAME=ash-sage-refit     run-subset-stored-data.iris   # Sage 2.3.0, alpha runs
+
+set -eo pipefail
+
+. ~/.bashrc
+conda activate "${ENVNAME:?ENVNAME must be set}"
+
+OUT=stored_data_subset_${ENVNAME}
+DS=../../01_download-data/physprop/final/output
+
+python subset-stored-data.py -s stored_data -of request-options.json \
+    -d "$DS/training-set.json" -d "$DS/validation-set.json" -o "$OUT"
+du -sh --apparent-size "$OUT"
+echo "SUBSET DONE"

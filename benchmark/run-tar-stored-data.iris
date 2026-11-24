@@ -1,0 +1,23 @@
+#!/usr/bin/env bash
+#SBATCH -J tar-stored-data
+#SBATCH -p cpu
+#SBATCH -t 02:00:00
+#SBATCH --mem=4gb
+#SBATCH --output run-logs/slurm-%x.%A.out
+
+# Written for this repository (not part of the Sage 2.3.0 repo).
+# Run from ash-sage-rc2/04_benchmark/phys-prop on Iris after run-subset-stored-data.iris.
+# The ash-sage-refit and ash-sage-rosemary selections are identical (manifests compared with cmp),
+# so one is packed, as stored_data/ so that it unpacks straight into benchmark/.
+set -eo pipefail
+SRC=stored_data_subset_ash-sage-rosemary
+cmp "${SRC}-manifest.csv" stored_data_subset_ash-sage-refit-manifest.csv
+mkdir -p tar-stage
+[ -e tar-stage/stored_data ] && { echo "tar-stage/stored_data exists" >&2; exit 1; }
+ln -s "../$SRC" tar-stage/stored_data
+cp -n "${SRC}-manifest.csv" tar-stage/stored_data_subset-manifest.csv
+tar -C tar-stage -czhf stored_data_subset.tar.gz stored_data stored_data_subset-manifest.csv
+ls -l stored_data_subset.tar.gz
+sha256sum stored_data_subset.tar.gz | tee stored_data_subset.tar.gz.sha256
+tar -tzf stored_data_subset.tar.gz | wc -l
+echo "TAR DONE"

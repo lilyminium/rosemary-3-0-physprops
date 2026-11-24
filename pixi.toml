@@ -1,0 +1,65 @@
+[workspace]
+name = "rosemary-3-0-physprops"
+description = "Physical-property benchmarks (densities, enthalpies of mixing) of Sage 2.3.0, Rosemary alpha and OpenFF 3.0.0-rc1 (Rosemary rc1)"
+channels = ["conda-forge"]
+platforms = ["osx-arm64", "linux-64"]
+
+# ---------------------------------------------------------------- analysis (default)
+# Pinned to the versions of the environment that produced the archived analysis outputs
+# (miniforge env "smee-stack-dev", 2026-11-19).
+[dependencies]
+python = "3.13.*"
+numpy = "2.4.2.*"
+pandas = "2.3.3.*"
+scipy = "1.17.0.*"
+scikit-learn = "1.8.0.*"
+matplotlib-base = "3.10.8.*"
+seaborn-base = "0.13.2.*"
+pyarrow = "20.0.0.*"
+rdkit = "2025.09.4.*"
+openff-toolkit-base = "0.18.0.*"
+ambertools = "*"
+openff-nagl-base = "0.5.4.*"
+openff-nagl-models = "2025.9.0.*"
+openff-forcefields = "2026.11.0.*"
+click = "8.3.*"
+loguru = "0.7.3.*"
+tqdm = "*"
+
+[tasks]
+breakdown = { cmd = "bash run-breakdown.sh", cwd = "analysis", description = "Run the Rosemary rc1 + OPC3 vs Sage 2.3.0 + TIP3P chemistry breakdown in place (pass a step name to run one step)" }
+headline = { cmd = "bash run-headline.sh", cwd = "analysis", description = "Overall stats with bootstrap CIs and headline figures for all three force fields" }
+
+# ---------------------------------------------------------------- benchmark (linux-64, CUDA)
+# Pinned to env ash-sage-rosemary, used for the OpenFF 3.0.0-rc1 runs
+# (exact lock: 04_benchmark/phys-prop/envs/ash-sage-rosemary.lock.txt in ash-sage-rc2). The Sage 2.3.0 and
+# Rosemary-alpha runs used env ash-sage-refit (patched toolkit/evaluator builds; see
+# environments/full/ash-sage-refit.yaml in ash-sage-rc2), which is not reproduced here.
+# OpenEye toolkits were present in ash-sage-rosemary but are omitted (licensed).
+[feature.benchmark]
+platforms = ["linux-64"]
+system-requirements = { cuda = "11.8" }  # deprecated table, but feature-level platforms must be strings
+
+[feature.benchmark.dependencies]
+python = "3.12.*"
+openff-toolkit = "0.19.0.*"
+openff-forcefields = "2026.11.0.*"
+openff-evaluator = "0.5.3.*"
+openff-interchange = "0.5.5.*"
+openff-nagl = "0.6.1.*"
+openff-nagl-models = "2026.9.0.*"
+openmm = "8.2.0.*"
+cuda-version = "11.8.*"
+openmmtools = "0.26.0.*"
+pymbar = "4.2.0.*"
+packmol = "21.2.1.*"
+dask = "2026.8.0.*"
+distributed = "2026.8.0.*"
+pandas = "2.3.3.*"
+numpy = "2.2.6.*"
+click = "*"
+loguru = "*"
+tqdm = "*"
+
+[environments]
+benchmark = { features = ["benchmark"], no-default-feature = true }

@@ -1,0 +1,136 @@
+group,file,n_density,n_dhmix
+All,All.png,618,436
+"1,2 Aminoalcohol",1_2_Aminoalcohol.png,3,0
+"1,2 Diol",1_2_Diol.png,9,9
+Alcohol,Alcohol.png,231,180
+Alkane,Alkane.png,136,111
+Alkene,Alkene.png,4,0
+Alkyl Bromide,Alkyl_Bromide.png,93,87
+Alkyl Chloride,Alkyl_Chloride.png,103,93
+Alkyl Fluoride,Alkyl_Fluoride.png,20,18
+Amine,Amine.png,25,0
+Aqueous,Aqueous.png,8,6
+Aromatic,Aromatic.png,65,43
+Carbonyl,Carbonyl.png,20,3
+Carboxylic Acid Amide,Carboxylic_Acid_Amide.png,3,0
+Carboxylic Acid Derivative,Carboxylic_Acid_Derivative.png,311,264
+Carboxylic Acid Ester,Carboxylic_Acid_Ester.png,306,264
+Carboxylic Acid Tertiary Amide,Carboxylic_Acid_Tertiary_Amide.png,3,0
+Dialkylether,Dialkylether.png,89,66
+Ether,Ether.png,91,66
+Halogen Derivative,Halogen_Derivative.png,238,216
+Heterocycle,Heterocycle.png,31,9
+Hydroxy,Hydroxy.png,233,180
+Ketone,Ketone.png,19,3
+Nitrile,Nitrile.png,3,0
+Orthocarboxylic Acid Derivative,Orthocarboxylic_Acid_Derivative.png,16,15
+Phenol,Phenol.png,5,3
+Primary Alcohol,Primary_Alcohol.png,225,180
+Primary Aliphatic Amine,Primary_Aliphatic_Amine.png,8,0
+Primary Amine,Primary_Amine.png,10,0
+Secondary Alcohol,Secondary_Alcohol.png,4,0
+Secondary Aliphatic Amine,Secondary_Aliphatic_Amine.png,9,0
+Secondary Amine,Secondary_Amine.png,10,0
+Tertiary Aliphatic Amine,Tertiary_Aliphatic_Amine.png,9,0
+Tertiary Amine,Tertiary_Amine.png,9,0
+a1,a1.png,612,436
+a10,a10.png,306,232
+a10a,a10a.png,223,186
+a11,a11.png,149,121
+a14,a14.png,8,0
+a15,a15.png,307,264
+a16,a16.png,3,0
+a18,a18.png,17,0
+a18a,a18a.png,3,0
+a19,a19.png,14,0
+a2,a2.png,610,436
+a20,a20.png,5,0
+a21,a21.png,4,0
+a22,a22.png,5,0
+a28,a28.png,392,327
+a28a,a28a.png,237,180
+a41,a41.png,24,12
+b1,b1.png,581,433
+b10,b10.png,3,0
+b12,b12.png,5,0
+b14,b14.png,231,180
+b16,b16.png,398,330
+b18,b18.png,7,3
+b2,b2.png,47,31
+b20,b20.png,306,264
+b21,b21.png,329,267
+b25,b25.png,3,0
+b27,b27.png,3,0
+b3,b3.png,245,189
+b4,b4.png,4,0
+b5,b5.png,63,43
+b6,b6.png,6,0
+b69,b69.png,39,36
+b7,b7.png,25,0
+b71,b71.png,104,93
+b73,b73.png,93,87
+b8,b8.png,5,0
+b84,b84.png,611,436
+b85,b85.png,152,121
+b87,b87.png,18,0
+b88,b88.png,237,180
+b9,b9.png,3,0
+i1,i1.png,91,46
+i2,i2.png,307,264
+i4,i4.png,6,0
+n-tip3p-H,n-tip3p-H.png,8,6
+n-tip3p-O,n-tip3p-O.png,8,6
+n11,n11.png,18,0
+n12,n12.png,235,180
+n14,n14.png,396,310
+n15,n15.png,3,0
+n16,n16.png,612,436
+n17,n17.png,330,267
+n18,n18.png,399,330
+n19,n19.png,235,180
+n2,n2.png,564,418
+n20,n20.png,39,0
+n23,n23.png,39,36
+n24,n24.png,106,93
+n25,n25.png,93,87
+n3,n3.png,552,426
+n7,n7.png,68,43
+n8,n8.png,7,0
+n9,n9.png,84,78
+t1,t1.png,454,355
+t10,t10.png,19,18
+t106,t106.png,6,3
+t107,t107.png,304,264
+t11,t11.png,103,93
+t110,t110.png,304,264
+t12,t12.png,93,87
+t166,t166.png,3,0
+t17,t17.png,249,189
+t17a,t17a.png,42,31
+t18,t18.png,154,120
+t19,t19.png,244,189
+t2,t2.png,367,297
+t20,t20.png,4,0
+t3,t3.png,569,427
+t4,t4.png,475,372
+t44,t44.png,63,43
+t45,t45.png,6,0
+t46,t46.png,3,0
+t47,t47.png,3,0
+t5,t5.png,47,33
+t51,t51.png,22,0
+t58a,t58a.png,17,0
+t6,t6.png,20,18
+t64,t64.png,5,0
+t7,t7.png,31,30
+t74,t74.png,3,0
+t8,t8.png,25,24
+t80,t80.png,3,0
+t84,t84.png,5,0
+t85,t85.png,5,0
+t9,t9.png,393,315
+t93,t93.png,229,180
+t94,t94.png,223,177
+t95,t95.png,398,330
+t96,t96.png,91,66
+t97,t97.png,183,159
